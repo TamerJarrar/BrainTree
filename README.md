@@ -1,27 +1,18 @@
-# BrainTree
-NodeJS braintree integration via TamerJarrar
+# Braintree Express Example
+
+[![Build Status](https://travis-ci.org/braintree/braintree_express_example.svg?branch=master)](https://travis-ci.org/braintree/braintree_express_example)
+
+An example Braintree integration for Node in the Express framework.
 
 ## Setup Instructions
 
-
-However first you'll need to install npm you can do it by typing in your terminal this command
 1. Install packages:
 
    ```sh
    npm install
    ```
 
-
-2. Copy the contents of `example.env` into a new file named `.env` and fill in your Braintree API credentials. Credentials can be found by navigating to Account > My User > View Authorizations in the Braintree Control Panel. Full instructions can be [found on braintree support site](https://articles.braintreepayments.com/control-panel/important-gateway-credentials#api-credentials).
-
-AND place your api(s) here
-
-```sh
-BT_ENVIRONMENT='Sandbox'
-BT_MERCHANT_ID='YOUR_MERCHANT_ID'
-BT_PUBLIC_KEY='YOUR_PUBLIC_KEY'
-BT_PRIVATE_KEY='YOUR_PRIVATE_KEY'
-```
+2. Copy the contents of `example.env` into a new file named `.env` and fill in your Braintree API credentials. Credentials can be found by navigating to Account > My User > View Authorizations in the Braintree Control Panel. Full instructions can be [found on our support site](https://articles.braintreepayments.com/control-panel/important-gateway-credentials#api-credentials).
 
 3. Start the server:
 
@@ -34,7 +25,6 @@ BT_PRIVATE_KEY='YOUR_PRIVATE_KEY'
 ## Deploying to Heroku
 
 You can deploy this app directly to Heroku to see the app live. Skip the setup instructions above and click the button below. This will walk you through getting this app up and running on Heroku in minutes.
-
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/braintree/braintree_express_example&env[BT_ENVIRONMENT]=sandbox)
 
